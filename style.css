@@ -13,7 +13,7 @@ html,body{
   background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
 }
 .wrapper .button{
-  transform: translate(0,-145px);
+  transform: translate(0,-100px);
   display: inline-block;
   height: 60px;
   width: 60px;
@@ -52,7 +52,7 @@ html,body{
   background: #24b537;
 }
 .wrapper .button:nth-child(5):hover .icon{
-  background: #ff0000;
+  background: #eaf273;
 }
 .wrapper .button .icon i{
   font-size: 25px;
@@ -82,7 +82,7 @@ html,body{
   color: #24b537;
 }
 .wrapper .button:nth-child(5) span{
-  color: #ff0000;
+  color: #d4d400;
 }
 img{
   margin-top: 60px;
@@ -118,44 +118,3 @@ img{
     font-family:arial;
     font-size: 17px;
   }
-  .snapchat-icon {
-    font-size: 33px;
-    color: #060605;
-    align-items: center;
-    transform: translate(-45px,-285px);
-    border-radius: 50%;
-    transition: background-color 0.3s;
-  }
-  .snapchat-icon i {
-    font-size: 24px;
-    color: #fff;
-}
-
-.snapchat-icon:hover {
-    color: #bacf00;
-}
-
-.snapchat-icon:hover i {
-    color: #000000;
-}
-  .viber-icon {
-    color: #060605;
-    align-items: center;
-    font-size: 30px;
-    transform: translate(50px,-320px);
-    background-color: #f2f2f2;
-    border-radius: 50%;
-    transition: background-color 0.3s;
-  }
-  .viber-icon i {
-    font-size: 24px;
-    color: #fff;
-}
-
-.viber-icon:hover {
-    color: #4d36e3;
-}
-
-.viber-icon:hover i {
-    color: #000000;
-}
